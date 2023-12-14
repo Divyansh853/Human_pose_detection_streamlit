@@ -61,7 +61,7 @@ desired_width = 1280
 desired_height = 720
 
 def main():
-    st.title("Pose Detection with Streamlit")
+    st.title("Human Pose Detection")
 
     cap = cv2.VideoCapture(0)
     cap.set(cv.CAP_PROP_FRAME_WIDTH, desired_width)
